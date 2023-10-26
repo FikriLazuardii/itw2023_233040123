@@ -1,53 +1,50 @@
-
 body {
-    background: white;
-    font-family: Georgia;
-    background-image: url(background.png);
-    background-repeat: repeat-x;
-
+  background: white;
+  font-family: Georgia;
+  background-image: url(img/background.png);
+  background-repeat: repeat-x;
 }
 
 h1 {
-    font-family: cursive;
-    font-size: 60px;
-    color: darkblue;
-    text-align: center;
+  font-family: cursive;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
-h3 a{
-    color: red;
+h3 a {
+  color: red;
 }
 
 h3 a:hover {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 h4 {
-    text-align: center;
-    font-style: italic;
+  text-align: center;
+  font-style: italic;
 }
 
 .teks1 {
-    text-align: center;
-    color: orange
+  text-align: center;
+  color: orange;
 }
 
 .teks2 {
-    text-align: right;
-
+  text-align: right;
 }
 
 .teks2 a {
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .teks2 a:hover {
-    background: blue;
-    color: white;
+  background: blue;
+  color: white;
 }
