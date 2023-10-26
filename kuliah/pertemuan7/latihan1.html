@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan7 - Latihan1</title>
+    <style>
+      .kotak {
+        width: 280px;
+        height: 280px;
+        background-color: black;
+        margin: 500px auto;
+        /* border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%; */
+        border-radius: 50% 50% 50% 50%;
+        /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>; */
+        box-shadow: 0 0 0 10px red, 0 0 0 20px black, 0 0 0 30px red, 0 0 0 40px black, 0 0 0 50px red;
+        transition: 1s;
+      }
+
+      .kotak:hover {
+        background-image: url(Gif.gif);
+        border-radius: 50%;
+        background-color: white;
+        transform: (360deg) scale(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak"></div>
+  </body>
+</html>
